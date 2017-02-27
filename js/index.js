@@ -3,7 +3,7 @@ function fib(n){
 	if (n==1||n==2) return 1;
 	else return fib(n-1)+fib(n-2);		
 	}
-	var userNum=+prompt('Введіть порядковий номер числа Фібоначчі');
+	var userNum=prompt('Введіть порядковий номер числа Фібоначчі');
 alert(fib(userNum));
    
    function fib1(n) {
@@ -16,5 +16,5 @@ alert(fib(userNum));
   }
   return b;
 }
- var userNum1=+prompt('Введіть порядковий номер числа  Фібоначчі');
+ var userNum1=prompt('Введіть порядковий номер числа  Фібоначчі');
 alert(fib1(userNum1));
